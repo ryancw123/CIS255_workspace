@@ -33,6 +33,12 @@ public class Money
 
    // ADD LINES FOR TASK #1 HERE
    // Document and write a copy constructor
+   
+   public Money(Money x)
+   {
+      this.dollars=x.dollars;
+      this.cents=x.cents;
+   }
 
    /**
       The add method
@@ -116,4 +122,33 @@ public class Money
    // ADD LINES FOR TASK #2 HERE
    // Document and write an equals method
    // Document and write a toString method
+   /* The equals method will determine whether the given money object is the same with 
+    * the 'this' money object by comparing all variables in the object. If all variables
+    * are equal, this method will return true and false otherwise.
+    */
+   public boolean equals(Money x) {
+	   if(this.dollars==x.dollars && this.cents==x.cents) {
+		   return true;
+	   }
+	   return false;
+   }
+   
+   public boolean isGreater(Money x) {
+	   if(this.dollars>x.dollars ||(this.dollars==x.dollars && this.cents>x.cents)) {
+		   return true;
+	   }
+	   return false;
+   }
+   
+   /*The toString method will convert the money object into a string.
+    * The return string format will be $dollars.cents.
+    * Cents will be prefixed with 0 if its less than 10.
+    */
+   public String toString() {
+	   if(cents<10) {
+		   return "$"+ dollars+".0"+cents;
+	   }
+	   return "$"+ dollars+"."+cents;
+   }
+   
 }

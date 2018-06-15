@@ -27,6 +27,13 @@ public class Person
       firstName = first;
       home = residence;
    }
+   
+   public Person(Person x)
+   {
+	   lastName = x.lastName;
+	   firstName = x.firstName;
+	   home = x.home;
+   }
 
    /**
       The toString method
