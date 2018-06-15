@@ -33,6 +33,7 @@ public class Money
 
    // ADD LINES FOR TASK #1 HERE
    // Document and write a copy constructor
+   //The overloaded money constructor is created to accept its own object type
    
    public Money(Money x)
    {

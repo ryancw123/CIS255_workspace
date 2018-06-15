@@ -4,6 +4,8 @@ public class CreditCard {
 	private Money balance;
 	private Money creditLimit;
 	
+	/*the creditCard constructor is overloaded to accept its own object type.
+	 */
 	public CreditCard(Person p,Money m) {
 		owner=p;
 		creditLimit=m;
@@ -28,6 +30,11 @@ public class CreditCard {
 		return owner.toString();
 	}
 	
+	/*
+	 * the charge and payment methods changes the balance of the credit 
+	 * card depending on the payment paid or the amount charged.
+	 */
+	
 	public void charge(Money chargeAmount) {
 		Money checkBalance=getBalance().add(chargeAmount);
 		if(checkBalance.isGreater(creditLimit)) {
@@ -41,6 +48,9 @@ public class CreditCard {
 		balance=balance.subtract(paymentAmount);
 	}
 	
+	/*
+	 * Gets the information about the user or the owner of the credit card.
+	 */
 	public String getPersonals() {
 		return getOwner();
 	}
