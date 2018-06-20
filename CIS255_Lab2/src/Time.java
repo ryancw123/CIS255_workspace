@@ -120,6 +120,8 @@ public class Time
       }
    }
    
+   //uses the try and catch to test if the String is a number or not
+   
    public boolean numberDetermination(String text) {
 	   try{
 		   Integer.parseInt(text);

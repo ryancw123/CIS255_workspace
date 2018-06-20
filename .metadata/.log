@@ -2097,3 +2097,22 @@ org.eclipse.recommenders.utils.Logs$LogTraceException
 
 !ENTRY org.eclipse.jdt.core 4 0 2018-06-18 00:37:03.037
 !MESSAGE Invalid ZIP archive: secret.txt [in CIS255_Lab2]
+!SESSION 2018-06-19 12:14:42.278 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=10.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/ryanwong/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/ryanwong/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2018-06-19 12:14:52.565
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-06-19 12:14:58.516
+!MESSAGE Invalid ZIP archive: secret.txt [in CIS255_Lab2]
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-06-19 12:14:58.657
+!MESSAGE Invalid ZIP archive: secret.txt [in CIS255_Lab2]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-19 12:14:59.717
+!MESSAGE 
