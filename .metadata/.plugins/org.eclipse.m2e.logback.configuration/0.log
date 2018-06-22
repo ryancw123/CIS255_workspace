@@ -62,3 +62,5 @@ Caused by: java.net.UnknownHostException: download.eclipse.org: nodename nor ser
 2018-06-17 18:15:21,597 [Worker-6] WARN  org.eclipse.jgit.util.FS - null
 2018-06-19 12:14:58,800 [Worker-6] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2018-06-19 12:14:59,716 [Worker-5] WARN  org.eclipse.jgit.util.FS - null
+2018-06-20 18:57:02,904 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-06-20 18:57:03,857 [Worker-7] WARN  org.eclipse.jgit.util.FS - null
