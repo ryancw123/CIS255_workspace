@@ -2210,3 +2210,113 @@ org.eclipse.recommenders.utils.Logs$LogTraceException
 	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
 	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
 	at java.base/java.lang.Thread.run(Thread.java:844)
+!SESSION 2018-07-02 12:27:43.195 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=10.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/ryanwong/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/ryanwong/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2018-07-02 12:38:33.863
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-07-02 12:38:39.052
+!MESSAGE Invalid ZIP archive: secret.txt [in CIS255_Lab2]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-02 12:38:39.794
+!MESSAGE 
+!SESSION 2018-07-02 12:39:36.285 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=10.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/ryanwong/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/ryanwong/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2018-07-02 12:39:42.168
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-07-02 12:39:47.504
+!MESSAGE Invalid ZIP archive: secret.txt [in CIS255_Lab2]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-02 12:39:48.466
+!MESSAGE 
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-07-03 00:15:13.805
+!MESSAGE Invalid ZIP archive: secret.txt [in CIS255_Lab2]
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2018-07-03 16:51:18.756
+!MESSAGE Full project indexing required:
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/jrt-fs.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:169)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:122)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.base/java.lang.Thread.run(Thread.java:844)
