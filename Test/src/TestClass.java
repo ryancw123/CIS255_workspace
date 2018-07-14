@@ -5,9 +5,17 @@ import java.nio.file.Paths;
 public class TestClass {
 
 	public static void main(String[] args) throws IOException {
-		String content = new String(Files.readAllBytes(Paths.get("secret.txt")));
-		//String path = "./secret.txt";
-		//String[] splitArray =
-		System.out.println(content);
+		System.out.print(harmonicRecursive(4));
 	}
+	
+	public static double harmonicRecursive(double x) {
+		System.out.println("Method call -- " +
+                "calculating " +
+                "Factorial of: " + x);
+		   if(x==1) {
+			   return 1;
+		   }else {
+			   return (1/x) * (harmonicRecursive(x-1));
+		   }
+	   }
 }
